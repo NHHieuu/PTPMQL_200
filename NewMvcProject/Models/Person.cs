@@ -7,7 +7,7 @@ public class Person
 {
     [Key]
     public String PersonId { get; set; }
-    public string fullName { get; set; }
-    public string Adress { get; set; }
+    public string? fullName { get; set; }
+    public string? Adress { get; set; }
 
 }

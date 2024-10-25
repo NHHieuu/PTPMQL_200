@@ -9,7 +9,7 @@ using NewMvcProject.Data;
 
 namespace NewMvcProject.Migrations
 {
-    [DbContext(typeof(ApplicationDbcontext))]
+    [DbContext(typeof(ApplicationDbContext))]
     [Migration("20241020182754_Create_table_Person")]
     partial class Create_table_Person
     {
